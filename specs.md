@@ -35,5 +35,3 @@ cancel_game( ):
 
 Code by chuacw / Chee-Wee Chua,    
 2-3 June 2023.
-
-

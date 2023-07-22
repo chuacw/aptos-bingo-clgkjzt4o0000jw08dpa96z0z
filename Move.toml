@@ -1,0 +1,13 @@
+[package]
+name = 'bingo'
+version = '1.0.0'
+
+[dependencies]
+# initial rev "aptos-framework-v1.4.0"
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "aptos-cli-v2.0.0" }
+MoveStdlib = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/move-stdlib", rev = "aptos-cli-v2.0.0" }
+AptosToken = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-token/", rev = "aptos-cli-v2.0.0" }
+
+[addresses]
+overmind = "0x1337"
+admin = "0x1337"
